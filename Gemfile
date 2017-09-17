@@ -16,6 +16,11 @@ group :production do
   gem 'pg'
 end
 gem 'carrierwave'
+gem "cloudinary"
+
+gem 'gravtastic'
+gem 'devise'
+gem 'mini_magick', '3.8.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
